@@ -18,7 +18,8 @@
   - The classifier supports the engineer; it does not replace the measurement system.
   - Covers the provisional classes, the input representations and the reasons classification is hard.
 - **2.5.2 Traditional ML.** Features, classifiers, strengths and limits. The SVM and RF baselines are named here once.
-- **2.5.3 Deep learning.** Grouped by the supervisors' three families: temporal/1D, PRPD/2D and image (new Figure 2).
+- **2.5.3 Deep learning.** One paragraph for each of the supervisors' three families: temporal/1D (1D CNNs on pulses), PRPD/2D (LSTM on PRPD cycle sequences, Swin Transformer on PRPD maps) and image-based (2D CNN on PRPD images or time–frequency images). Figure 2 shows the same grouping.
+- **Author names** appear only in Table 1. The text says "one study [n]" or "in [n]", and Figure 2 lists reference numbers.
 - **2.5.4 Comparison.**
   - Table 1 is the literature matrix, using exactly the fields the supervisors listed: paper/year, PD type/dataset, input, algorithm, accuracy, precision/recall/F1, key limitation.
   - Table 2 compares the three families against the supervisors' decision criteria.
